@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  visibility: hidden;
+  height: 100vh;
+}
+
+.container {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.container .text {
+  width: 600px;
+}
+
+.container .text h1 {
+  width: 400px;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+.container .text p {
+  width: 400px;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.hero-content-line {
+  overflow: hidden;
+}
+
+.container .text h3 {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.container .text h3 span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: blue;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.container-image {
+  width: 50%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+}
+
+.container-image .hero-image {
+  position: absolute;
+  overflow: hidden;
+  /* background-color: red; */
+}
+
+.container-image .girl {
+  top: 10px;
+  right: -100px;
+  width: 40%;
+}
+
+.container-image .girl img {
+  width: 100%;
+}
+
+.container-image .boy {
+  bottom: 10px;
+  left: 150px;
+  width: 50%;
+}
+
+.container-image .boy img {
+  width: 100%;
+}

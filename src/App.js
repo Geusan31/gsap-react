@@ -1,8 +1,9 @@
 // import GSAP2 from './pages/tutorial/turorial-gsap-2/gsap2';
 // import GSAP3 from './pages/tutorial/tutorial-gsap-3/gsap3';
 // import GSAP4 from './pages/tutorial/tutorial-gsap-4/gsap4';
-import GSAP5 from './pages/tutorial/tutorial-gsap-5/gsap5';
+// import GSAP5 from './pages/tutorial/tutorial-gsap-5/gsap5';
 // import GSAP1 from './pages/tutorial-gsap-1/gsap1';
+import Asus from './pages/latihan/asus/asus';
 
 function App() {
   return (
@@ -10,7 +11,10 @@ function App() {
     // <GSAP2/> // tutorial 2
     // <GSAP3/> // tutorial 3
     // <GSAP4/> // tutorial 4
-    <GSAP5/> // tutorial 5
+    // <GSAP5/> // tutorial 5
+
+
+    <Asus/> // latihan 1
   );
 }
 
